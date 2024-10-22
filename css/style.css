@@ -1,0 +1,48 @@
+.container1{
+    background-image: url(../images/Hero\ \(1\).webp);
+    height: 150vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo, .list{
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header{
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    font-size: 10px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.content{
+    padding-left: 35px;
+    padding-top: 30px;
+    color: white;
+    font-size: 75px;
+    line-height: 1;
+}
